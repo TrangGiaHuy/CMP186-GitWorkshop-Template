@@ -9,7 +9,7 @@ namespace SalaryCalculator
             var engineerSalary = EmployeeService.CalculateSalary(EmployeeType.Engineer, 2);
             Console.WriteLine(string.Format("Engineer's Salary: {0}", engineerSalary));
             
-                var engineerSalary = EmployeeService.CalculateSalary(Manager.Engineer, 2);
+                var engineerSalary = EmployeeService.CalculateSalary(Manager.Engineer, 7);
             Console.WriteLine(string.Format("Engineer's Salary: {0}", engineerSalary));
 
             
