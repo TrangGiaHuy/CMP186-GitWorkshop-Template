@@ -15,7 +15,7 @@ namespace SalaryCalculator
 
             decimal factor = 0;
 
-            switch (employeeType)
+           switch (employeeType)
             {
                 case EmployeeType.Engineer:
                     factor = 1;
